@@ -2,7 +2,7 @@
 
 > **[Efficient Multimodal Large Language Models: A Survey](http://arxiv.org/abs/2312)**[ [arXiv]](http://arxiv.org/abs/2312) 
 
-> *Yizhang Jin<sup>12</sup>, Jian Li<sup>1</sup>, Kai Wu<sup>1</sup>, Yexin Liu<sup>3</sup>, Tianjun Gu<sup>4</sup>,  Muyang He<sup>3</sup>, Bo Zhao<sup>3</sup>, Xin Tan<sup>4</sup>, Zhenye Gan<sup>1</sup>, Yabiao Wang<sup>1</sup>, Chengjie Wang<sup>1</sup>*
+> *Yizhang Jin<sup>12</sup>, Jian Li<sup>1</sup>, Yexin Liu<sup>3</sup>, Tianjun Gu<sup>4</sup>, Kai Wu<sup>1</sup>, Zhengkai Jiang<sup>1</sup>, Muyang He<sup>3</sup>, Bo Zhao<sup>3</sup>, Xin Tan<sup>4</sup>, Zhenye Gan<sup>1</sup>, Yabiao Wang<sup>1</sup>, Chengjie Wang<sup>1</sup>*
 
 > *<sup>1</sup>Tencent YouTu Lab, <sup>2</sup>Shanghai Jiao Tong University, <sup>3</sup>Beijing Academy of Artificial Intelligence, <sup>4</sup>East China Normal University*
 
