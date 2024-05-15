@@ -15,7 +15,7 @@
 In the past year, Multimodal Large Language Models (MLLMs) have demonstrated remarkable performance in tasks such as visual question answering, visual understanding and reasoning. However, the extensive model size and high training and inference costs have hindered the widespread application of MLLMs in academia and industry. Thus, studying efficient and lightweight MLLMs has enormous potential, especially in edge computing scenarios. In this survey, we provide a comprehensive and systematic review of the current state of efficient MLLMs. Specifically, we summarize the timeline of representative efficient MLLMs, research state of efficient structures and strategies, and the applications. Finally, we discuss the limitations of current efficient MLLM research and promising future directions.
 
 <p align="center">
-    <img src="./imgs/arch.png" width="100%" height="100%">
+    <img src="./imgs/arch.png" width="80%" height="80%">
 </p>
 
 **⚡We will actively maintain this repository and incorporate new research as it emerges**. 
