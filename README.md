@@ -1,6 +1,6 @@
 # Efficient-Multimodal-LLMs-Survey
 
-> **[Efficient Multimodal Large Language Models: A Survey](http://arxiv.org/abs/2312)**[ [arXiv]](http://arxiv.org/abs/2312) 
+> **[Efficient Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2405.10739v1)**[ [arXiv]](https://arxiv.org/pdf/2405.10739v1) 
 
 > *Yizhang Jin<sup>12</sup>, Jian Li<sup>1</sup>, Yexin Liu<sup>3</sup>, Tianjun Gu<sup>4</sup>, Kai Wu<sup>1</sup>, Zhengkai Jiang<sup>1</sup>, Muyang He<sup>3</sup>, Bo Zhao<sup>3</sup>, Xin Tan<sup>4</sup>, Zhenye Gan<sup>1</sup>, Yabiao Wang<sup>1</sup>, Chengjie Wang<sup>1</sup>, Lizhuang Ma<sup>2</sup>*
 
