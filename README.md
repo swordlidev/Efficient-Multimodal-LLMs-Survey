@@ -161,8 +161,7 @@ FOR ACCELERATING VISION-LANGUAGE TRANSFORMERS. <ins>ICML, 2024</ins> [[Paper](ht
 - Tinygpt-v: Efficient multimodal large language model via small backbones.<ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.16862)] 
 
 #### Parameter Efficient Transfer Learning
-- Param- eter and computation efficient transfer learning for multi-modal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15226)] 
+- Not All Attention is Needed: Parameter and Computation Efficient Transfer Learning for Multi-modal Large Language Models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15226)] 
 - Memory-space visual prompting for efficient vision-language fine-tuning. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05615)]
-- LoRA: Low-rank adaptation of large language models. <ins>arXiv, 2021</ins> [[Paper](https://arxiv.org/abs/2106.09685)] (ICLR22)
-=======
->>>>>>> 7ad6543a6363a702e4c82c85de86439d7e2d6fbf
+
+
