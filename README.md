@@ -50,8 +50,6 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - moondream: tiny vision language model.<ins>github, 2024</ins> [[Github](https://github.com/vikhyat/moondream)] 
 
 
-
-
 #### Vision Encoder
 
 ##### Multiple Vision Encoders
