@@ -18,32 +18,32 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
     <img src="./imgs/arch.png" width="80%" height="80%">
 </p>
 
-# Summary of 17 Mainstream Efficient MMLMs
+###  Summary of 17 Mainstream Efficient MMLMs
 
 | Model | Vision Encoder | Resolution | Vision Encoder Parameter Size | LLM | LLM Parameter Size | Vision-LLM Projector | Timeline |
 |-------|----------------|------------|------------------------------|-----|---------------------|----------------------|----------|
-| MobileVLM [chu2023mobilevlmv1] | CLIP ViT-L/14 [radford2021clip] | 336 | 0.3B | MobileLLaMA [chu2023mobilevlmv1] | 2.7B | LDP [chu2023mobilevlmv1] | 2023-12 |
-| LLaVA-Phi [zhu2024llava-phi] | CLIP ViT-L/14 [radford2021clip] | 336 | 0.3B | Phi-2 [javaheripi2023phi] | 2.7B | MLP | 2024-01|
-| Imp-v1 [imp2024] | SigLIP [zhai2023siglip] | 384 | 0.4B | Phi-2 [javaheripi2023phi] | 2.7B | - | 2024-02 |
-| TinyLLaVA [zhou2024tinyllava] | SigLIP-SO [zhai2023siglip] | 384 | 0.4B | Phi-2 [javaheripi2023phi] | 2.7B | MLP | 2024-02 |
-| Bunny [he2024bunny] | SigLIP-SO [zhai2023siglip] | 384 | 0.4B | Phi-2 [javaheripi2023phi] | 2.7B | MLP | 2024-02 |
-| MobileVLM-v2-3B [chu2024mobilevlmv2] | CLIP ViT-L/14 [radford2021clip] | 336 | 0.3B | MobileLLaMA [chu2024mobilevlmv2] | 2.7B | LDPv2 [chu2024mobilevlmv2] | 2024-02 |
-| MoE-LLaVA-3.6B [lin2024moe-llava] | CLIP-Large [radford2021clip] | 384 | - | Phi-2 [javaheripi2023phi] | 2.7B | MLP | 2024-02 |
-| Cobra [zhao2024cobra] | DINOv2 [oquab2023dinov2], SigLIP-SO [zhai2023siglip] | 384 | 0.3B+0.4B | Mamba-2.8b-Zephyr [gu2023mamba] | 2.8B | MLP | 2024-03 |
-| Mini-Gemini [li2024mini-gemini] | CLIP-Large [radford2021clip] | 336 | - | Gemma [gemmateam2024gemma] | 2B | MLP | 2024-03 |
-| Vary-toy [wei2024vary-toy] | CLIP [radford2021clip] | 224 | - | Qwen [bai2023qwen] | 1.8B | - | 2024-01 |
-| TinyGPT-V [yuan2023tinygpt-v] | EVA [fang2023eva] | 224/448 | - | Phi-2 [javaheripi2023phi] | 2.7B | Q-Former [li2023blip2] | 2024-01 |
-| SPHINX-Tiny [gao2024sphinx] | DINOv2 [oquab2023dinov2], CLIP-ConvNeXt [liu2022convnet] | 448 | - | TinyLlama [zhang2024tinyllama] | 1.1B | - | 2024-02 |
-| ALLaVA-Longer [chen2024allava] | CLIP-ViT-L/14 [radford2021clip] | 336 | 0.3B | Phi-2 [javaheripi2023phi] | 2.7B | - | 2024-02 |
-| MM1-3B-MoE-Chat [mckinzie2024mm1] | CLIP_DFN-ViT-H [fang2023data] | 378 | - | - | 3B | C-Abstractor [cha2023honeybee] | 2024-03 |
-| LLaVA-Gemma [hinck2024llava-gemma] | DinoV2 [oquab2023dinov2] | - | - | Gemma-2b-it [gemmateam2024gemma] | 2B | - | 2024-03 |
-| Mipha-3B [zhu2024mipha] | SigLIP [zhai2023siglip] | 384 | - | Phi-2 [javaheripi2023phi] | 2.7B | - | 2024-03 |
-| VL-Mamba [qiao2024vlmamba] | SigLIP-SO [zhai2023siglip] | 384 | - | Mamba-2.8B-Slimpj [gu2023mamba] | 2.8B | VSS-L2 [qiao2024vlmamba] | 2024-03 |
-| MiniCPM-V 2.0 [minicpm-v] | SigLIP [zhai2023siglip] | - | 0.4B | MiniCPM [hu2024minicpm] | 2.7B | Perceiver Resampler [alayrac2022flamingo] | 2024-03 |
-| DeepSeek-VL [lu2024deepseekvl] | SigLIP-L [zhai2023siglip] | 384 | 0.4B | DeepSeek-LLM [deepseek-llm] | 1.3B | MLP | 2024-03 |
-| KarmaVLM [karmavlm] | SigLIP-SO [zhai2023siglip] | 384 | 0.4B | Qwen1.5 [bai2023qwen] | 0.5B | - | YYYY-MM |
-| moondream2 [moondream] | SigLIP [zhai2023siglip] | - | - | Phi-1.5 [li2023phi] | 1.3B | - | YYYY-MM |
-| Bunny-v1.1-4B [he2024bunny] | SigLIP [zhai2023siglip] | 1152 | - | Phi-3-Mini-4K [abdin2024phi3] | 3.8B | - | 2024-02 |
+| MobileVLM  | CLIP ViT-L/14  | 336 | 0.3B | MobileLLaMA  | 2.7B | LDP | 2023-12 |
+| LLaVA-Phi  | CLIP ViT-L/14  | 336 | 0.3B | Phi-2  | 2.7B | MLP | 2024-01|
+| Imp-v1| SigLIP  | 384 | 0.4B | Phi-2  | 2.7B | - | 2024-02 |
+| TinyLLaVA  | SigLIP-SO  | 384 | 0.4B | Phi-2  | 2.7B | MLP | 2024-02 |
+| Bunny | SigLIP-SO | 384 | 0.4B | Phi-2  | 2.7B | MLP | 2024-02 |
+| MobileVLM-v2-3B | CLIP ViT-L/14  | 336 | 0.3B | MobileLLaMA  | 2.7B | LDPv2  | 2024-02 |
+| MoE-LLaVA-3.6B  | CLIP-Large  | 384 | - | Phi-2  | 2.7B | MLP | 2024-02 |
+| Cobra | DINOv2, SigLIP-SO  | 384 | 0.3B+0.4B | Mamba-2.8b-Zephyr | 2.8B | MLP | 2024-03 |
+| Mini-Gemini | CLIP-Large  | 336 | - | Gemma  | 2B | MLP | 2024-03 |
+| Vary-toy  | CLIP  | 224 | - | Qwen  | 1.8B | - | 2024-01 |
+| TinyGPT-V  | EVA  | 224/448 | - | Phi-2  | 2.7B | Q-Former  | 2024-01 |
+| SPHINX-Tiny  | DINOv2 , CLIP-ConvNeXt  | 448 | - | TinyLlama  | 1.1B | - | 2024-02 |
+| ALLaVA-Longer  | CLIP-ViT-L/14  | 336 | 0.3B | Phi-2  | 2.7B | - | 2024-02 |
+| MM1-3B-MoE-Chat  | CLIP_DFN-ViT-H  | 378 | - | - | 3B | C-Abstractor  | 2024-03 |
+| LLaVA-Gemma  | DinoV2  | - | - | Gemma-2b-it  | 2B | - | 2024-03 |
+| Mipha-3B  | SigLIP  | 384 | - | Phi-2  | 2.7B | - | 2024-03 |
+| VL-Mamba | SigLIP-SO  | 384 | - | Mamba-2.8B-Slimpj  | 2.8B | VSS-L2  | 2024-03 |
+| MiniCPM-V 2.0  | SigLIP  | - | 0.4B | MiniCPM  | 2.7B | Perceiver Resampler  | 2024-03 |
+| DeepSeek-VL  | SigLIP-L  | 384 | 0.4B | DeepSeek-LLM  | 1.3B | MLP | 2024-03 |
+| KarmaVLM  | SigLIP-SO  | 384 | 0.4B | Qwen1.5  | 0.5B | - | 2024-02 |
+| moondream2  | SigLIP  | - | - | Phi-1.5  | 1.3B | - | 2024-03 |
+| Bunny-v1.1-4B  | SigLIP  | 1152 | - | Phi-3-Mini-4K  | 3.8B | - | 2024-02 |
 
 **⚡We will actively maintain this repository and incorporate new research as it emerges**. 
 
