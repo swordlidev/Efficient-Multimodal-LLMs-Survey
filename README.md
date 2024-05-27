@@ -48,20 +48,34 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 **⚡We will actively maintain this repository and incorporate new research as it emerges**. 
 
 
+
 ## Efficient MLLMs
 
 ### Architecture
 - Mobilevlm: A fast, reproducible and strong vision language assistant for mobile devices. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.16886)] 
 - Llava-phi: Efficient multi-modal assistant with small language model. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.02330)] 
-- Imp-v1: An emprical study of multimodal small language models. <ins>2024</ins>(文章引用没有v1，且没有文章出处）
+- Imp-v1: An emprical study of multimodal small language models. <ins>github, 2023</ins> [[Paper](https://github.com/MILVLG/imp)] 
+- TinyLLaVA: A Framework of Small-scale Large Multimodal Models. <ins>arxiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.14289)] 
 - (Bunny)Efficient multimodal learning from data-centric perspective.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.11530)] 
 - Gemini: a family of highly capable multimodal models<ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.11805)] 
 - Mobilevlm v2: Faster and stronger baseline for vision language model. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.0376)] 
-- Moe-llava: Mixture of experts for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.15947)] 
+- Moe-llava: Mixture of experts for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.15947)] 
 - Cobra:Extending mamba to multi-modal large language model for efficient inference. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.14520)] 
 - Mini-gemini: Mining the potential of multi-modality vision language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.18814)] 
 - (Vary-toy)Small language model meets with reinforced vision vocabulary. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.12503)] 
 - Tinygpt-v: Efficient multimodal large language model via small backbones.<ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.16862)] 
+- SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.05935)] 
+- ALLaVA: Harnessing GPT4V-synthesized Data for A Lite Vision-Language Model.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.11684)] 
+- Mm1: Methods, analysis \& insights from multimodal llm pre-training.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.09611)] 
+- LLaVA-Gemma: Accelerating Multimodal Foundation Models with a Compact Language Model.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.01331)] 
+- Mipha: A Comprehensive Overhaul of Multimodal Assistant with Small Language Models.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.06199)] 
+- VL-Mamba: Exploring State Space Models for Multimodal Learning.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.13600)] 
+- MiniCPM-V 2.0: An Efficient End-side MLLM with Strong OCR and Understanding Capabilities.<ins>github, 2024</ins> [[Github](https://github.com/OpenBMB/MiniCPM-V)] 
+- DeepSeek-VL: Towards Real-World Vision-Language Understanding
+.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.05525)] 
+- KarmaVLM: A family of high efficiency and powerful visual language model.<ins>github, 2024</ins> [[Github](https://github.com/thomas-yanxin/KarmaVLM)] 
+- moondream: tiny vision language model.<ins>github, 2024</ins> [[Github](https://github.com/vikhyat/moondream)] 
+
 
 #### Vision Encoder
 
@@ -72,7 +86,6 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 
 ##### Lightweight Vision Encoder
 - ViTamin: Designing Scalable Vision Models in the Vision-Language Era. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.02132)] 
-- Eva: Exploring the limits of masked visual representation learning at scale. <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2211.07636)] （原文只有CVPR23，没有arxiv）
 
 #### Vision-Language Projector
 
@@ -114,6 +127,9 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - Tiny- chart: Efficient chart understanding with visual token merging and program-of-thoughts learning.
 - Llava-prumerge: Adaptive token reduction for efficient large multimodal models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15388)] 
 - Madtp: Multi- modal alignment-guided dynamic token pruning for accelerating vision-language transformer. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.02991)] 
+- CROSSGET: CROSS-GUIDED ENSEMBLE OF TOKENS
+FOR ACCELERATING VISION-LANGUAGE TRANSFORMERS. <ins>ICML, 2024</ins> [[Paper](https://arxiv.org/pdf/2305.17455)] 
+
 
 ##### Multi-Scale Information Fusion
 - Mini-gemini: Mining the potential of multi-modality vision language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.18814)] 
@@ -145,32 +161,10 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - An image is worth 1/2 tokens after layer 2: Plug-and-play inference acceleration for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.06764)] 
 - Boosting multimodal large language models with visual tokens withdrawal for rapid inference. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05803)] 
 
-### Efficient Vision
-#### Compact Architecture
-##### Architecture Design Methods
-- Crossformer++: A versatile vision transformer hinging on cross-scale attention. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05803)] 
-- Es- caping the big data paradigm with compact transformers. <ins>arXiv, 2021</ins> [[Paper](https://arxiv.org/abs/2104.05704)] 
-- Reformer:Theefficienttransformer.. <ins>arXiv, 2020</ins> [[Paper](https://arxiv.org/abs/2001.04451)] 
-- Efficientformer: Vision transformers at mobilenet speed. <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2206.01191)] 
-- Rethinking vision transformers for mobilenet size and speed. <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2212.08059)] 
 
-##### Architecture Search Methods
-- Vision transformer slimming: Multi-dimension searching in continuous optimization space. <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2201.00814)] 
-- Autoformer: Searching transformers for visual recognition. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2107.00651)] 
-- Nasvit: Neural architecture search for efficient vision transformers with gradient conflict-aware supernet training. （没找到arxiv）
-- Training-free transformer architecture search. <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2203.12217)] 
-- Uninet: Unified architecture search with convolution, transformer, and mlp.<ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2207.05420)] （两个版本，选了最新的被ECCV录用的）
 
-##### Optimization of Attention Mechanisms Methods
 
-#### Pruning
-##### Unstructured Pruning
-
-##### Structured Pruning
-
-### Efficient LLMs 
-
-### Training（下面四个应该是二级标题，已修正）
+### Training
 
 #### Pre-Training
 
@@ -180,17 +174,19 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - Sharegpt4v: Improving large multi-modal models with better captions. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2311.12793)] 
 
 ##### Multi-stage pre-training
-- What matters when building vision- language models? <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.02246)] (原文引用没有arxiv，看是否需要补一下）
+- What matters when building vision- language models? <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.02246)] 
 
 #### Instruction-Tunining
 ##### Efficient IT
-- Cheap and quick: Efficient vision-language instruction tuning for large language models. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2305.15023)] (原文没有arxiv，只有Neurips）
-- Hyperllava: Dynamic visual and language expert tuning for multimodal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.13447)] (原文没有arxiv，看是否需要补一下）
+- Cheap and quick: Efficient vision-language instruction tuning for large language models. <ins>nips, 2023</ins> [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/5e84e4413268b713f0d4a1b23a9dae57-Paper-Conference.pdf)]
+- Hyperllava: Dynamic visual and language expert tuning for multimodal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.13447)]
 
 #### Diverse Training Steps
-（都是重复的，SPHINX-X, Cobra, TinyGPT-V）
+- SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.05935)] 
+- Cobra:Extending mamba to multi-modal large language model for efficient inference. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.14520)] 
+- Tinygpt-v: Efficient multimodal large language model via small backbones.<ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.16862)] 
 
 #### Parameter Efficient Transfer Learning
-- Param- eter and computation efficient transfer learning for multi-modal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15226)] 
-- Memory-space visual prompting for efficient vision-language fine-tuning. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05615)] (原文没有arxiv，看是否需要补一下）
-- LoRA: Low-rank adaptation of large language models. <ins>arXiv, 2021</ins> [[Paper](https://arxiv.org/abs/2106.09685)] (ICLR22)
+- Not All Attention is Needed: Parameter and Computation Efficient Transfer Learning for Multi-modal Large Language Models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15226)] 
+- Memory-space visual prompting for efficient vision-language fine-tuning. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05615)]
+
