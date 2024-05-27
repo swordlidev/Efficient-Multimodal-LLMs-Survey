@@ -131,7 +131,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 
 #### Efficient Structures
 ##### Mixture of Experts
-- Moe-llava: Mixture of experts for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.15947)] 
+- Moe-llava: Mixture of experts for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.15947)] 
 - Mm1: Methods, analysis & insights from multimodal llm pre-training. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.09611)] 
 - Mixtral of experts. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.04088)] 
 
