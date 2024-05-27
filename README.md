@@ -6,11 +6,23 @@
 
 > *<sup>1</sup>Tencent YouTu Lab, <sup>2</sup>Shanghai Jiao Tong University, <sup>3</sup>Beijing Academy of Artificial Intelligence, <sup>4</sup>East China Normal University*
 
+```
+@misc{jin2024efficient,
+      title={Efficient Multimodal Large Language Models: A Survey}, 
+      author={Yizhang Jin and Jian Li and Yexin Liu and Tianjun Gu and Kai Wu and Zhengkai Jiang and Muyang He and Bo Zhao and Xin Tan and Zhenye Gan and Yabiao Wang and Chengjie Wang and Lizhuang Ma},
+      year={2024},
+      eprint={2405.10739},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+## 📌 What is This Survey About?
+
 <p align="center">
     <img src="./imgs/timeline.png" width="100%" height="100%">
 </p>
 
-## 📌 What is This Survey About?
 
 In the past year, Multimodal Large Language Models (MLLMs) have demonstrated remarkable performance in tasks such as visual question answering, visual understanding and reasoning. However, the extensive model size and high training and inference costs have hindered the widespread application of MLLMs in academia and industry. Thus, studying efficient and lightweight MLLMs has enormous potential, especially in edge computing scenarios. In this survey, we provide a comprehensive and systematic review of the current state of efficient MLLMs. Specifically, we summarize the timeline of representative efficient MLLMs, research state of efficient structures and strategies, and the applications. Finally, we discuss the limitations of current efficient MLLM research and promising future directions.
 
@@ -21,7 +33,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 ###  Summary of 17 Mainstream Efficient MMLMs
 
 | Model | Vision Encoder | Resolution | Vision Encoder Parameter Size | LLM | LLM Parameter Size | Vision-LLM Projector | Timeline |
-|-------|----------------|------------|------------------------------|-----|---------------------|----------------------|----------|
+|-------|----------------|------------|------------------------------|-----|----------------|----------------------|----------|
 | MobileVLM  | CLIP ViT-L/14  | 336 | 0.3B | MobileLLaMA  | 2.7B | LDP | 2023-12 |
 | LLaVA-Phi  | CLIP ViT-L/14  | 336 | 0.3B | Phi-2  | 2.7B | MLP | 2024-01|
 | Imp-v1| SigLIP  | 384 | 0.4B | Phi-2  | 2.7B | - | 2024-02 |
@@ -45,7 +57,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 | moondream2  | SigLIP  | - | - | Phi-1.5  | 1.3B | - | 2024-03 |
 | Bunny-v1.1-4B  | SigLIP  | 1152 | - | Phi-3-Mini-4K  | 3.8B | - | 2024-02 |
 
-**⚡We will actively maintain this repository and incorporate new research as it emerges**. 
+**⚡We will actively maintain this repository and incorporate new research as it emerges. If you have any questions, please feel free to contact swordli@tencent.com**. 
 
 
 
