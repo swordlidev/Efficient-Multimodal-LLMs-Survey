@@ -202,3 +202,20 @@ FOR ACCELERATING VISION-LANGUAGE TRANSFORMERS. <ins>ICML, 2024</ins> [[Paper](ht
 - Not All Attention is Needed: Parameter and Computation Efficient Transfer Learning for Multi-modal Large Language Models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15226)] 
 - Memory-space visual prompting for efficient vision-language fine-tuning. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05615)]
 
+### Applications
+
+#### Biomedical Analysis
+- Training small multimodal models to bridge biomedical competency gap: A case study in radiology imaging. <ins>arXiv, 2024</ins> [[Paper]]
+- Moe-tinymed: Mixture of experts for tiny medical large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.10237)] 
+
+#### Document Understanding
+- Texthawk: Exploring efficient fine-grained perception of multimodal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.09204)]
+- Tiny- chart: Efficient chart understanding with visual token merging and program-of-thoughts learning. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.16635)]
+- Monkey: Image resolution and text label are important things for large multi-modal models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.06918)]
+- Hrvda: High-resolution visual document assistant. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2311.06607)]
+
+#### Video Comprehension
+- mplug-2: A modular- ized multi-modal foundation model across text, image and video. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2302.00402)]
+- Video-llava: Learning united visual representation by alignment before projection. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2311.10122)]
+- Ma-lmm: Memory-augmented large multimodal model for long-term video under- standing. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.05726)]
+- Llama-vid: An image is worth 2 tokens in large language models. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2311.17043 )]
