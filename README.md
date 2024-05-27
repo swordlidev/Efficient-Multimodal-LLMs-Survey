@@ -66,7 +66,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 ### Architecture
 - Mobilevlm: A fast, reproducible and strong vision language assistant for mobile devices. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.16886)] 
 - Llava-phi: Efficient multi-modal assistant with small language model. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2401.02330)] 
-- Imp-v1: An emprical study of multimodal small language models. <ins>github, 2023</ins> [[Paper](https://github.com/MILVLG/imp)] 
+- Imp-v1: An emprical study of multimodal small language models. <ins>arXiv, 2024</ins> [[Paper](ttps://arxiv.org/abs/2405.12107)]
 - TinyLLaVA: A Framework of Small-scale Large Multimodal Models. <ins>arxiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.14289)] 
 - (Bunny)Efficient multimodal learning from data-centric perspective.<ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2402.11530)] 
 - Gemini: a family of highly capable multimodal models<ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2312.11805)] 
