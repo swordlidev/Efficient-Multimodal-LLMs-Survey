@@ -139,8 +139,8 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - Tiny- chart: Efficient chart understanding with visual token merging and program-of-thoughts learning.
 - Llava-prumerge: Adaptive token reduction for efficient large multimodal models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.15388)] 
 - Madtp: Multi- modal alignment-guided dynamic token pruning for accelerating vision-language transformer. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.02991)] 
-- CROSSGET: CROSS-GUIDED ENSEMBLE OF TOKENS
-FOR ACCELERATING VISION-LANGUAGE TRANSFORMERS. <ins>ICML, 2024</ins> [[Paper](https://arxiv.org/pdf/2305.17455)] 
+- CROSSGET: CROSS-GUIDED ENSEMBLE OF TOKENS FOR ACCELERATING VISION-LANGUAGE TRANSFORMERS. <ins>ICML, 2024</ins> [[Paper](https://arxiv.org/pdf/2305.17455)]
+- Matryoshka Query Transformer for Large Vision-Language Models. <ins>arxiv, 2024</ins> [[Paper](https://arxiv.org/pdf/2405.19315)]
 
 
 ##### Multi-Scale Information Fusion
