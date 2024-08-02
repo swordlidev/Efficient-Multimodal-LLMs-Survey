@@ -6,7 +6,7 @@
 
 > *<sup>1</sup>Tencent YouTu Lab, <sup>2</sup>SJTU, <sup>3</sup>BAAI, <sup>4</sup>ECNU*
 
-**⚡We will actively maintain this repository and incorporate new research as it emerges. If you have any questions, please contact swordli@tencent.com. Welcome to collaborate on academic research and writing papers together.(学术合作，有兴趣写survey paper的也可以联系我)**. 
+**⚡We will actively maintain this repository and incorporate new research as it emerges. If you have any questions, please contact swordli@tencent.com. Welcome to collaborate on academic research and writing papers together.(欢迎学术合作)**. 
 
 ```
 @misc{jin2024efficient,
