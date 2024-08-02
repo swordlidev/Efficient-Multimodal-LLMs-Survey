@@ -4,7 +4,8 @@
 
 > *Yizhang Jin<sup>12</sup>, Jian Li<sup>1</sup>, Yexin Liu<sup>3</sup>, Tianjun Gu<sup>4</sup>, Kai Wu<sup>1</sup>, Zhengkai Jiang<sup>1</sup>, Muyang He<sup>3</sup>, Bo Zhao<sup>3</sup>, Xin Tan<sup>4</sup>, Zhenye Gan<sup>1</sup>, Yabiao Wang<sup>1</sup>, Chengjie Wang<sup>1</sup>, Lizhuang Ma<sup>2</sup>*
 
-> *<sup>1</sup>Tencent YouTu Lab, <sup>2</sup>Shanghai Jiao Tong University, <sup>3</sup>Beijing Academy of Artificial Intelligence, <sup>4</sup>East China Normal University*
+> *<sup>1</sup>Tencent YouTu Lab, <sup>2</sup>SJTU, <sup>3</sup>BAAI, <sup>4</sup>ECNU*
+**⚡We will actively maintain this repository and incorporate new research as it emerges. If you have any questions, please contact swordli@tencent.com. Welcome to collaborate on academic research and writing papers together.(学术合作，有兴趣写survey paper的也可以联系我)**. 
 
 ```
 @misc{jin2024efficient,
@@ -57,9 +58,6 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 | moondream2  | SigLIP  | - | - | Phi-1.5  | 1.3B | - | 2024-03 |
 | Bunny-v1.1-4B  | SigLIP  | 1152 | - | Phi-3-Mini-4K  | 3.8B | - | 2024-02 |
 
-**⚡We will actively maintain this repository and incorporate new research as it emerges. If you have any questions, please feel free to contact swordli@tencent.com**. 
-
-
 
 ## Efficient MLLMs
 
@@ -104,6 +102,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 ##### MLP-based
 - Visual Instruction Tuning. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2304.08485)] 
 - Improved baselines with visual instruction tuning. <ins>arXiv, 2023</ins> [[Paper](https://arxiv.org/abs/2310.03744)] 
+- TokenPacker: Efficient Visual Projector for Multimodal LLM. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2407.02392)] 
 
 ##### Attention-based
 - Flamingo: a Visual Language Model for Few-Shot Learning, <ins>arXiv, 2022</ins> [[Paper](https://arxiv.org/abs/2204.14198)] 
