@@ -32,7 +32,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
     <img src="./imgs/arch.png" width="80%" height="80%">
 </p>
 
-###  Summary of 17 Mainstream Efficient MMLMs
+###  Summary of 17 Mainstream Efficient MLLMs
 
 | Model | Vision Encoder | Resolution | Vision Encoder Parameter Size | LLM | LLM Parameter Size | Vision-LLM Projector | Timeline |
 |-------|----------------|------------|------------------------------|-----|----------------|----------------------|----------|
