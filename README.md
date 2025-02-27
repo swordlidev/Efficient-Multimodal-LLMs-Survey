@@ -141,6 +141,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - Madtp: Multi- modal alignment-guided dynamic token pruning for accelerating vision-language transformer. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.02991)] 
 - CROSSGET: CROSS-GUIDED ENSEMBLE OF TOKENS FOR ACCELERATING VISION-LANGUAGE TRANSFORMERS. <ins>ICML, 2024</ins> [[Paper](https://arxiv.org/pdf/2305.17455)]
 - Matryoshka Query Transformer for Large Vision-Language Models. <ins>arxiv, 2024</ins> [[Paper](https://arxiv.org/pdf/2405.19315)]
+- Dynamic-LLaVA: Efficient Multimodal Large Language Models via Dynamic Vision-language Context Sparsification. <ins>ICLR, 2025</ins> [[Paper](https://arxiv.org/abs/2412.00876)]
 
 
 ##### Multi-Scale Information Fusion
@@ -171,7 +172,8 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 ##### Inferece Acceleration
 - On speculative decoding for multimodal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.08856)] 
 - An image is worth 1/2 tokens after layer 2: Plug-and-play inference acceleration for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.06764)] 
-- Boosting multimodal large language models with visual tokens withdrawal for rapid inference. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05803)] 
+- Boosting multimodal large language models with visual tokens withdrawal for rapid inference. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05803)]
+- Dynamic-LLaVA: Efficient Multimodal Large Language Models via Dynamic Vision-language Context Sparsification. <ins>ICLR, 2025</ins> [[Paper](https://arxiv.org/abs/2412.00876)]
 
 
 
