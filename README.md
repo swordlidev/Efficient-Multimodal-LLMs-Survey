@@ -170,6 +170,7 @@ In the past year, Multimodal Large Language Models (MLLMs) have demonstrated rem
 - Vl-mamba: Exploring state space models for multimodal learning. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.13600)] 
 
 ##### Inferece Acceleration
+- LOOK-M: Look-Once Optimization in KV Cache for Efficient Multimodal Long-Context Inference. <ins>EMNLP Findings, 2024</ins> [[Paper](https://arxiv.org/pdf/2406.18139)] [[Code](https://github.com/SUSTechBruce/LOOK-M)] 
 - On speculative decoding for multimodal large language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2404.08856)] 
 - An image is worth 1/2 tokens after layer 2: Plug-and-play inference acceleration for large vision-language models. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2403.06764)] 
 - Boosting multimodal large language models with visual tokens withdrawal for rapid inference. <ins>arXiv, 2024</ins> [[Paper](https://arxiv.org/abs/2405.05803)]
